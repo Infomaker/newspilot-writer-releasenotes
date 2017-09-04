@@ -1,0 +1,20 @@
+<nav class="navbar navbar-fixed-top bg-faded">
+    <button class="navbar-toggler hidden-lg-up float-lg-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">...</button>
+    <div class="container collapse navbar-toggleable-md" id="navbarResponsive">
+        <ul class="nav navbar-nav">
+            {% for navItem in site.data.nav %}
+                {% if page.url == navItem.href %}
+                    <li class="nav-item active"><a class="nav-link" href="{{ site.url }}{{ site.baseurl }}{{ navItem.href }}">{{ navItem.title }}</a></li>
+                {% elsif page.active == navItem.href %}
+                    <li class="nav-item active"><a class="nav-link" href="{{ site.url }}{{ site.baseurl }}{{ navItem.href }}">{{ navItem.title }}</a></li>
+                {% else %}
+                    <li class="nav-item"><a class="nav-link" href="{{ site.url }}{{ site.baseurl }}{{ navItem.href }}">{{ navItem.title }}</a></li>
+                {% endif %}
+            {% endfor %}
+
+            <li class="nav-item float-lg-right">
+                <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/about/">About</a>
+            </li>
+        </ul>
+    </div>
+</nav>

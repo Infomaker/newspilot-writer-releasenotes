@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+---
+layout: full-width
+title: Newspilot Writer release notes
+---
 
-You can use the [editor on GitHub](https://github.com/Infomaker/newspilot-writer-releasenotes/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<div class="jumbotron">
+<h1>Newspilot Writer Release notes</h1>
+<p class="lead">
+  This site contains release notes for Newpilot Writer and accompanying projects.
+  When upgrading a servuce from a version to a higher one, <strong>please consider each consecutive release note for upgrade
+  instructions</strong>. The required version for each dependency is listed in the release page for the version to upgrade to.
+  <strong>Note that each dependent service may have additional dependency requirements for its dependencies</strong>.
+</p>
+</div>    
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<h2>Newspilot Writer versions</H2>
 
-### Markdown
+{% for note in site.writer-releasenotes %}
+<a href="{{note.url}}">{{note.title}}</a><br>{% endfor %}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<h2>Editor service versions</h2>
+{% for note in site.editorservice-releasenotes %}
+<a href="{{note.url}}">{{note.title}}</a>
+{% endfor %}
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Infomaker/newspilot-writer-releasenotes/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
