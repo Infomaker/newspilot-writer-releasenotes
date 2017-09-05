@@ -16,10 +16,10 @@ title: Newspilot Writer release notes
 <h2>Newspilot Writer versions</H2>
 
 {% for note in site.writer-releasenotes %}
-<a href="{{note.url}}">{{note.title}}</a><br>{% endfor %}
+<a href="{{site.baseurl}}/{{note.url}}">{{note.title}}</a><br>{% endfor %}
 
 <h2>Editor service versions</h2>
 {% for note in site.editorservice-releasenotes %}
-<a href="{{note.url}}">{{note.title}}</a>
+<a href="{{site.baseurl}}/{{note.url}}">{{note.title}}</a>
 {% endfor %}
 
