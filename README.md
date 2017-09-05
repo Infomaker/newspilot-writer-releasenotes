@@ -27,4 +27,6 @@ This local server should be at localhost:4000
 2. Edit `_config.yml` and `_config-dev.yml` files and add a collection named: `myproject-releasenotes`.
 3. Edit the `index.md` file and iterate through the new collection `{% for note in site.myproject-releasenotes reversed %}`
 
-Next thing is to add the new project to the `jenkins` build in the project `generate-release-notes` project.
+Next thing is to edit the release note generation configurations in the [https://bitbucket.org/infomaker/writer-releasenotes-generator] project.
+
+The last thing is to add the new project to the `jenkins` build in the project `generate-release-notes` project.
