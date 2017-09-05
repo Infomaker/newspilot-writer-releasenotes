@@ -18,11 +18,14 @@ exclude:
   - Gemfile.lock
   - node_modules
   - build.sh
+  - README.md
 
 collections:
-  writer-releasenotes:
+  conceptbackend-releasenotes:
     output: true
   editorservice-releasenotes:
     output: true
   plugins-releasenotes:
+    output: true
+  writer-releasenotes:
     output: true
