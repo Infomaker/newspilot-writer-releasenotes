@@ -24,3 +24,5 @@ collections:
     output: true
   editorservice-releasenotes:
     output: true
+  plugins-releasenotes:
+    output: true

@@ -28,5 +28,5 @@ collections:
     output: true
   editorservice-releasenotes:
     output: true
-
-theme: jekyll-theme-slate
+  plugins-releasenotes:
+    output: true
