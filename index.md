@@ -39,10 +39,10 @@ title: Newspilot Writer release notes
 <a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
 </div>
 
+<div class="release-notes">
 <h3>Lambda - Image Metadata</h3>
 {% for note in site.imagemetadata-releasenotes reversed %}
 <a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
-</div>
 
 <h3>Lambda - Image Publish</h3>
 {% for note in site.imagepublish-releasenotes reversed %}
@@ -53,11 +53,3 @@ title: Newspilot Writer release notes
 <a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
 </div>
 
-
-<div class="release-notes">
-    <h3>Newspilot Writer Integration Service</h3>
-    <ul>
-        <li><a href="./writerintegrationservice13.html">Version 1.3</a></li>
-        <li><a href="./writerintegrationservice12.html">Version 1.2</a></li>
-    </ul>
-</div>
