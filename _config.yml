@@ -25,6 +25,12 @@ collections:
     output: true
   editorservice-releasenotes:
     output: true
+  imagemetadata-releasenotes:
+    output: true
+  imagepublish-releasenotes:
+    output: true
+  imageresizing-releasenotes:
+    output: true
   plugins-releasenotes:
     output: true
   writer-releasenotes:

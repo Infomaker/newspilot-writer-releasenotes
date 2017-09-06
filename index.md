@@ -15,23 +15,49 @@ title: Newspilot Writer release notes
 </div>    
 
 <div class="release-notes">
-<h2>Newspilot Writer</H2>
+<h3>Newspilot Writer</h3>
 {% for note in site.writer-releasenotes reversed %}
 <a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
 
-<h2>Writer plugins</h2>
+
+<h3>Writer plugins</h3>
 {% for note in site.plugins-releasenotes reversed %}
 <a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
 </div>
 
+
 <div class="release-notes">
-<h2>Editor service</h2>
+<h3>Editor service</h3>
 {% for note in site.editorservice-releasenotes reversed %}
 <a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
 </div>
 
+
 <div class="release-notes">
-<h2>Concept backend</h2>
+<h3>Concept backend</h3>
 {% for note in site.conceptbackend-releasenotes reversed %}
 <a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
+</div>
+
+<h3>Lambda - Image Metadata</h3>
+{% for note in site.imagemetadata-releasenotes reversed %}
+<a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
+</div>
+
+<h3>Lambda - Image Publish</h3>
+{% for note in site.imagepublish-releasenotes reversed %}
+<a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
+
+<h3>Lambda - Image Resizing</h3>
+{% for note in site.imageresizing-releasenotes reversed %}
+<a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
+</div>
+
+
+<div class="release-notes">
+    <h3>Newspilot Writer Integration Service</h3>
+    <ul>
+        <li><a href="./writerintegrationservice13.html">Version 1.3</a></li>
+        <li><a href="./writerintegrationservice12.html">Version 1.2</a></li>
+    </ul>
 </div>
