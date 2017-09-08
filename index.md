@@ -53,3 +53,8 @@ title: Newspilot Writer release notes
 <a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
 </div>
 
+<div class="release-notes">
+<h3>Integration Service</h3>
+{% for note in site.integrationservice-releasenotes reversed %}
+<a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
+</div>

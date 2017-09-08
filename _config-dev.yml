@@ -35,6 +35,8 @@ collections:
     output: true
   imageresizing-releasenotes:
     output: true
+  integrationservice-releasenotes:
+    output: true
   plugins-releasenotes:
     output: true
   writer-releasenotes:
