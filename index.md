@@ -4,7 +4,7 @@ title: Newspilot Writer release notes
 ---
 
 <div class="jumbotron">
-<h1>Newspilot Writer Release notes</h1>
+<h1>Newspilot Writer release notes</h1>
 <p class="lead">
   This site contains release notes for Newpilot Writer and accompanying projects.
 </p>
