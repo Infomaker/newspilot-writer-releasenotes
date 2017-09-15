@@ -17,44 +17,44 @@ title: Newspilot Writer release notes
 <div class="release-notes">
 <h3>Newspilot Writer</h3>
 {% for note in site.writer-releasenotes reversed %}
-<a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
+{{note.releaseDate}} &nbsp;&nbsp;&nbsp; <a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
 
 
 <h3>Writer plugins</h3>
 {% for note in site.plugins-releasenotes reversed %}
-<a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
+{{note.releaseDate}} &nbsp;&nbsp;&nbsp; <a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
 </div>
 
 
 <div class="release-notes">
 <h3>Editor service</h3>
 {% for note in site.editorservice-releasenotes reversed %}
-<a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
+{{note.releaseDate}} &nbsp;&nbsp;&nbsp; <a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
 </div>
 
 
 <div class="release-notes">
 <h3>Concept backend</h3>
 {% for note in site.conceptbackend-releasenotes reversed %}
-<a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
+{{note.releaseDate}} &nbsp;&nbsp;&nbsp; <a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
 </div>
 
 <div class="release-notes">
 <h3>Lambda - Image Metadata</h3>
 {% for note in site.imagemetadata-releasenotes reversed %}
-<a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
+{{note.releaseDate}} &nbsp;&nbsp;&nbsp; <a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
 
 <h3>Lambda - Image Publish</h3>
 {% for note in site.imagepublish-releasenotes reversed %}
-<a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
+{{note.releaseDate}} &nbsp;&nbsp;&nbsp; <a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
 
 <h3>Lambda - Image Resizing</h3>
 {% for note in site.imageresizing-releasenotes reversed %}
-<a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
+{{note.releaseDate}} &nbsp;&nbsp;&nbsp; <a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
 </div>
 
 <div class="release-notes">
 <h3>Integration Service</h3>
 {% for note in site.integrationservice-releasenotes reversed %}
-<a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
+{{note.releaseDate}} &nbsp;&nbsp;&nbsp; <a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
 </div>
