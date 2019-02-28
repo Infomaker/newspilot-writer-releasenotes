@@ -1,10 +1,10 @@
 ---
 layout: full-width
-title: Newspilot Writer release notes
+title: Digital Writer release notes
 ---
 
 <div class="jumbotron">
-<h1>Newspilot Writer release notes</h1>
+<h1>Digital Writer release notes</h1>
 <p class="lead">
   This site contains release notes for Newpilot Writer and accompanying projects.
 </p>
@@ -15,7 +15,7 @@ title: Newspilot Writer release notes
 </div>    
 
 <div class="release-notes">
-<h3>Newspilot Writer</h3>
+<h3>Digital Writer</h3>
 {% for note in site.writer-releasenotes reversed %}
 {{note.releaseDate}} &nbsp;&nbsp;&nbsp; <a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
 

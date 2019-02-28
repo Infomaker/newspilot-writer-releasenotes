@@ -1,13 +1,13 @@
 ---
 layout: default
-title: About Newspilot writer
+title: About Digital writer
 ---
 
-# About Newspilot Writer
+# About Digital Writer
 
-You are looking at the release notes for the services used in Newspilot Writer.
+You are looking at the release notes for the services used in Digital Writer.
 
-For more information about Newspilot Writer, please visit the <a href="https://www.infomaker.io/newspilot-writer/">Newspilot writer product page</a>
+For more information about Digital Writer, please visit the <a href="https://www.infomaker.io/digital-writer/">Digital writer product page</a>
 
 
 <a href="..">&lt; back</a>
