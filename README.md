@@ -1,6 +1,6 @@
 # Release notes for Digital Writer projects
 
-This project is responsible for generating the site at https://infomaker.github.io/digital-writer-releasenotes
+This project is responsible for generating the site at https://infomaker.github.io/newspilot-writer-releasenotes
 
 Pages will be added by jenkins in the `_project-releasenotes` directories.
 
@@ -12,7 +12,7 @@ These pages are added to the site in the `_config.yml` and `_config-dev.yml` con
 Jekyll is built in Ruby and requires bundle and jekyll to start a local environment.
 
 
-    git clone git@github.com:Infomaker/digital-writer-releasenotes.git
+    git clone git@github.com:Infomaker/newspilot-writer-releasenotes.git
     cd NPWriterDevelopers
     gem install jekyll bundler
     bundle install
