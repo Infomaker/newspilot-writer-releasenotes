@@ -1,12 +1,12 @@
 ---
 layout: full-width
-title: Digital Writer release notes
+title: Naviga Writer release notes
 ---
 
 <div class="jumbotron">
-<h1>Digital Writer release notes</h1>
+<h1>Naviga Writer release notes</h1>
 <p class="lead">
-  This site contains release notes for Newpilot Writer and accompanying projects.
+  This site contains release notes for Naviga Writer and accompanying projects.
 </p>
 <p>
   Please consider each consecutive release note when upgrading a service to a newer version, there might be
@@ -15,7 +15,7 @@ title: Digital Writer release notes
 </div>    
 
 <div class="release-notes">
-<h3>Digital Writer</h3>
+<h3>Naviga Writer</h3>
 {% for note in site.writer-releasenotes reversed %}
 {{note.releaseDate}} &nbsp;&nbsp;&nbsp; <a href="{{site.url}}{{site.baseurl}}{{note.url}}">{{note.title}}</a><br>{% endfor %}
 

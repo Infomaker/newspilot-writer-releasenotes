@@ -1,4 +1,4 @@
-# Release notes for Digital Writer projects
+# Release notes for Naviga Writer projects
 
 This project is responsible for generating the site at https://infomaker.github.io/newspilot-writer-releasenotes
 
