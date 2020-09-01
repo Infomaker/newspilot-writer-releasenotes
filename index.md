@@ -7,8 +7,9 @@ title: Naviga Writer release notes
   <h1>Naviga Writer release notes have moved!</h1>
   <p class="lead">
     This site used to contain release notes for Naviga Writer and accompanying projects. These now exist here:
-    
-    * [Naviga Writer Release Notes](https://docs.infomaker.io/writer/release-notes)
+    <ul>
+      <li><a href="https://docs.infomaker.io/writer/release-notes">Naviga Writer Release Notes</a></li>
+    </ul>
   </p>
   <p>
     Release notes for EditorService still live here for legacy reasons.
